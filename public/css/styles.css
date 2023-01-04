@@ -1,0 +1,498 @@
+body {
+
+  margin: 0;
+  /* if we do this then all the margins of all four sides become 0 */
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+.logo{
+  text-align: left;
+  position: relative;
+
+}
+.imagee{
+  width:30%;
+  left: 100px;
+  top:10px;
+  background-color: #E4F9F5;
+  margin: auto;
+
+}
+h1 {
+  font-size: 5.625rem;
+  /* rem stands for root em means that it is not changed and get first priority, also dynamic 1 rem=16px */
+  color: #66BFBF;
+  margin: 50px auto 0 auto;
+  /* means that the margin value changed clock-wise*/
+  margin-bottom: 0;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  /* px is not dynamic in natute */
+  color: #66BFBF;
+  font-weight: normal;
+  margin-top:20px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+}
+
+p {
+  margin-bottom: 50px;
+}
+
+/* NAVBAR */
+.container-fluid{
+  padding-left: 0;
+}
+.navbar-brand{
+  margin-left: 0;
+}
+.profile-nav{
+  width: 20%;
+display:block;
+}
+
+.profile-img{
+  width: 25%;
+}
+
+.container-fluid{
+  background-color: #E4F9F5;
+  position: relative;
+  margin:0;
+}
+
+.navbar{
+padding:0;
+
+}
+
+.nav-link{
+  color: #11999E;
+
+}
+
+.topcontainer {
+  background-color: #E4F9F5;
+  padding-top: 100px;
+  position: relative;
+}
+
+.middle-container {
+  width: 100%;
+  text-align: center;
+   margin-left: 0;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  MARGIN-TOP: 100PX;
+  padding: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  /*BY DOING THIS THE FLOW OF THE BOTTOM CLOUD IS LEFT FROM THE WEB PAGE AND NOW WE CAN ADJUST ACC TO OUR DESIRE*/
+  left: 250px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+.skill{
+  margin-top: 30px;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: left;
+}
+
+.discription {
+  text-align: left;
+}
+
+.html-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.css-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.profile {
+  margin: auto;
+  margin-top: 50px;
+  width: 65%;
+}
+
+.row {
+  margin-top: 50px;
+}
+
+.skills-img {
+  margin-top: 50px;
+  width: 15%;
+}
+
+#skills{
+  width: 100%;
+  margin:auto;
+}
+
+p {
+  color: #545454;
+  line-height: 2;
+}
+
+.p-skill {
+  margin-bottom: 100px;
+}
+
+.quote {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.skills-button {
+  background-color: #E4F9F5;
+  height: 70px;
+  width: 15%;
+  margin: 5px auto 50px auto;
+  line-height: 2;
+}
+
+.btn-back{
+margin-top: 100px;
+}
+.help-div {
+  margin-top: 50px;
+  width: 65%;
+  margin:auto;
+}
+
+.help-class {
+  color: #45b29a;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.feel-free {
+  margin-upper: 50px;
+}
+
+.contact-me {}
+
+.contact {
+  text-align: center;
+}
+
+.copy {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+hr {
+  background: none;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 15%;
+  margin:auto;
+}
+
+.skill-hr {
+  width: 6%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+/*******************SKILL-PAGE************************* */
+.skills-img{
+  margin-top:10px;
+}
+.skill-upper-container {
+  margin: 0;
+  background-color: #E4F9F5;
+  position: relative;
+padding: 30px 30px 30px 30px;
+}
+
+.upper-container-head {
+  margin: 0;
+}
+
+.first-skill-img {
+  margin-top: 0px;
+  float: left;
+  width: 20%;
+  margin-right: 30px;
+}
+
+.first-skill-name {
+  margin: 0;
+  text-align: left;
+}
+
+.first-skill {
+  width: 65%;
+  margin: 50px auto 100px auto;
+  line-height: 2;
+  text-align: left;
+}
+
+.second-skill-image {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.third-skill-image {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.forth-skill-image {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.home-page-image {
+  align: left;
+  width: 70px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+.many-more {
+  background-color: #E4F9F5;
+  padding:30px;
+}
+
+/* EDUCATION */
+
+.education{
+  width:100%;
+  margin:auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.skill-hr-edu{
+  width: 6%;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+.pera{
+  margin-bottom: 20PX;
+}
+
+.education-img{
+  width: 18%;
+  margin-top:60px;
+}
+
+.edu-col{
+  text-align: center;
+  padding:3% 2%;
+}
+.carousel-inner{
+  padding:0 100px 0 100px;
+}
+
+.master-img{
+  margin-top: 100px;
+  width:15%;
+
+}
+.master-img-front{
+  margin-top: 50px;
+  width:15%;
+
+}
+
+.edu-p{
+  margin-bottom: 10px;
+}
+
+.edu-pr{
+  color:black;
+  margin-bottom: 0px;
+  font-family: "Montserrat-bold";
+  font-size: 1.3rem;
+}
+.edu-cou{
+  margin-top: 35px;
+  color:black;
+
+}
+
+.pro-cou{
+
+  margin-top: 20px;
+
+}
+
+.carousel-item{
+  padding:7% 15%;
+
+}
+
+
+.ind-btn{
+  color: black;
+}
+
+.but{
+  color:black;
+}
+.slide-btn{
+
+  color:#545454;
+  }
+
+  /* PROJECT */
+
+  .project{
+    width:65%;
+    margin:auto;
+    text-align: center;
+    margin-bottom: 80px;
+  }
+
+  .project-img {
+    width:20%;
+  }
+  .tindog{
+    margin-top: 25px;
+  }
+.pro-head{
+  margin-bottom: 10px;
+}
+  #project{
+    text-align: center;
+    padding: 100px;
+    padding-top: 0px;
+    padding-bottom: 50px;
+  }
+  .project-colomn-1{
+text-align: center;
+  }
+
+  .project-colomn-2{
+  text-align: center;
+  }
+
+.card{
+  margin-bottom: 20px;
+}
+
+.card-title{
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+.card-text{
+  margin-bottom: 20px;
+}
+
+.about-project{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.project-btn{
+  margin-top: 100px;
+}
+  /* WORK EXPERIENCE */
+.work-exp-main-img{
+  width: 20%;
+  margin-top: 20px;
+}
+  .work-exp{
+    width:65%;
+    margin:auto;
+  }
+  .work-exp-img{
+    width:15%;
+    margin-bottom: 50px;
+    margin-top: 100px;
+  }
+/* BUTTON CODE */
+.btn {
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+  background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30E3CB;
+  background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+  text-decoration: none;
+}
+
+@media (max-width:1122px){ /* means that when size is lesser then 992 then the code inside it is apply */
+
+}
+
+
+/* newsletter */
+.newsletter{
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+
+.plus-btn{
+
+}

@@ -1,0 +1,6 @@
+index.html
+skills.html
+work-exp.html
+project.html
+education.html
+public
